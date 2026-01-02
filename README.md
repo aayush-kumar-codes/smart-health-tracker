@@ -1,31 +1,31 @@
 # Smart Health Tracker ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-yellowgreen)
 
 ## Project Description
-Smart Health Tracker is a comprehensive health tracking application that integrates with wearable devices to monitor users' health metrics in real-time. It provides personalized insights using machine learning algorithms and fosters a community for users to share their health journeys.
+Smart Health Tracker is a comprehensive health tracking application that integrates with various wearable devices to monitor users' health metrics in real-time. It provides personalized insights and recommendations using machine learning algorithms, while also incorporating social features and gamification to enhance user engagement.
 
 ## Features
 - Real-time health data monitoring using wearable device integration
 - Personalized health insights and recommendations powered by machine learning
-- Community features for users to share experiences and tips
-- Gamification elements to encourage healthy habits and track progress
+- Social features for sharing progress and challenges with friends
+- Gamification elements to encourage healthy habits and lifestyle changes
 - Secure data storage and user privacy management
 
 ## Tech Stack
 ### Frontend
-- **React** ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+- React ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
 ### Backend
-- **Node.js** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-- **GraphQL** ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
+- Node.js ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+- GraphQL ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 
 ### Database
-- **MongoDB** ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-
-### Machine Learning
-- **TensorFlow** ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F20?style=flat&logo=tensorflow&logoColor=white)
+- MongoDB ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
 ### DevOps
-- **Docker** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+- Docker ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+### Machine Learning
+- TensorFlow ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F20?style=flat&logo=tensorflow&logoColor=white)
 
 ## Installation
 To set up the Smart Health Tracker project locally, follow these steps:
@@ -40,6 +40,8 @@ cd smart-health-tracker
 bash
 npm install
 - Set up environment variables (create a `.env` file based on `.env.example`)
+bash
+cp .env.example .env
 - Start the development server
 bash
 npm start
